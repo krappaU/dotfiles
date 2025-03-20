@@ -1,0 +1,11 @@
+[core]
+	excludesfile = /home/krappa/.gitignore
+
+[includeIf "gitdir:~/Projects/work/**"]
+    path = .gitconfig-work
+
+[includeIf "gitdir:~/Projects/private/**"]
+    path = .gitconfig-private
+
+[includeIf "gitdir:~/Projects/public/**"]
+    path = .gitconfig-public
